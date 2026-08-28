@@ -26,7 +26,7 @@ export default async function HomePage() {
       <Technology technologies={content.technologies} />
       <About profile={content.profile} />
       <Experiments experiments={content.experiments} />
-      <Contact profile={content.profile} settings={content.settings} />
+      <Contact profile={content.profile} settings={content.settings} availability={content.availability} />
       <Footer profile={content.profile} />
     </main>
   );
